@@ -1,4 +1,6 @@
 import React from 'react';
+import BusinessDetails from '../../Components/BusinessDetails/BusinessDetails';
+import LoanDetails from '../../Components/LoanDetails/LoanDetails';
 import PersonalDetails from '../../Components/PersonalDetails/PersonalDetails';
 
 const Home = () => {
@@ -8,7 +10,9 @@ const Home = () => {
 				<div>
 					<h1 className="text-4xl font-bold text-center">Steps</h1>
 					<div className="mt-8">
-						<PersonalDetails />
+						{/* <PersonalDetails /> */}
+						{/* <BusinessDetails /> */}
+						<LoanDetails />
 					</div>
 				</div>
 			</div>

@@ -81,12 +81,12 @@ const PersonalDetails = () => {
 								maxLength: {
 									value: 10,
 									message:
-										'Phone Number should not be more than 10',
+										'Phone Number should not be more than 10 digit long',
 								},
 								minLength: {
 									value: 10,
 									message:
-										'Phone Number should not be less than 10',
+										'Phone Number should not be less than 10 digit long',
 								},
 							})}
 							type="number"
